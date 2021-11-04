@@ -1,16 +1,14 @@
 mod.wizards.newContentElement.wizardItems {
-  zrl.elements {
+  t3crr.elements {
     text_element {
-      iconIdentifier = extension
-      title = LLL:EXT:zrl_sitepackage/Resources/Private/Language/locallang_be.xlf:CType.I.text_element
-      description = LLL:EXT:zrl_sitepackage/Resources/Private/Language/locallang_db.xlf:text_element_plus_wiz_description
+      iconIdentifier = content-element
+      title = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:content_element.text_element
+      description = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:content_element.text_element-description
       tt_content_defValues {
         CType = text_element
       }
     }
   }
 
-  zrl.show := addToList(text_element)
+  t3crr.show := addToList(text_element)
 }
-
-mod.web_layout.tt_content.preview.text_element = EXT:zrl_sitepackage/Resources/Private/Templates/Preview/TextElement.html

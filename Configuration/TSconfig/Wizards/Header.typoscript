@@ -1,0 +1,3 @@
+mod.wizards.newContentElement.wizardItems.t3crr {
+  header = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:t3crr-wizard
+}

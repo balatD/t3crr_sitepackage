@@ -19,6 +19,12 @@
 			<trans-unit id="t3crr-wizard">
 				<source>T3CRR Elemente</source>
 			</trans-unit>
+			<trans-unit id="content_element.text_element">
+				<source>Text Element</source>
+			</trans-unit>
+			<trans-unit id="content_element.text_element-description">
+				<source>This is a plain and simple text element</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

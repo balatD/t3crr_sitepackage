@@ -12,7 +12,12 @@ call_user_func(function () {
     );
     $iconRegistry->registerIcon(
         'extension',
-        \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        ['source' => 'EXT:t3crr_sitepackage/Resources/Public/Icons/Extension.svg']
+        \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+        ['source' => 'EXT:t3crr_sitepackage/Resources/Public/Icons/Extension.png']
+    );
+    $iconRegistry->registerIcon(
+        'content-element',
+        \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+        ['source' => 'EXT:t3crr_sitepackage/Resources/Public/Icons/ContentElement.png']
     );
 });
