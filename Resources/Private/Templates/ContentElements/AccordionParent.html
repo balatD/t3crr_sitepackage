@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:layout name="FrameOnly"/>
+<f:section name="Main">
+
+<section class="accordion">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <f:for each="{accordions}" as="accordion" iteration="iterator">
+                    <details data-group="{accordion.data.parent}" {f:if(condition: iterator.isFirst, then: 'open')}>
+                        <summary><h5>{accordion.data.header}</h5></summary>
+                        <div>{accordion.data.bodytext -> f:format.html()}</div>
+                    </details>
+                </f:for>
+            </div>
+        </div>
+    </div>
+</section>
+
+</f:section>
+
+</html>

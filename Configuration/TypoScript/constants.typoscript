@@ -1,0 +1,14 @@
+######################
+#### DEPENDENCIES ####
+######################
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+styles {
+  templates {
+    layoutRootPath = EXT:t3crr_sitepackage/Resources/Private/Layouts/ContentElements/
+    partialRootPath = EXT:t3crr_sitepackage/Resources/Private/Partials/ContentElements/
+    templateRootPath = EXT:t3crr_sitepackage/Resources/Private/Templates/ContentElements/
+  }
+}
+
+resourcePublic = EXT:t3crr_sitepackage/Resources/Public

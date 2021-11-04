@@ -1,0 +1,26 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<div class="col-lg-4 col-md-6 teaser">
+    <div>
+        <div class="teaser-head">
+            <img src="{files.0.originalFile.publicUrl}"
+                 alt="{files.0.alternative}">
+        </div>
+        <div class="teaser-content">
+            <h2>{data.header}</h2>
+            <p>
+                {data.bodytext}
+            </p>
+        </div>
+    </div>
+    <div class="teaser-footer">
+        <p>
+            <f:link.typolink parameter="{data.header_link}" class="btn lightblue">
+                weiterlesen
+            </f:link.typolink>
+        </p>
+    </div>
+</div>
+
+</html>

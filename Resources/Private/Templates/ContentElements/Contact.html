@@ -1,0 +1,26 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:layout name="FrameOnly" />
+<f:section name="Main">
+
+<section class="contact-ce">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <h2>{data.header}</h2>
+                <div class="content">{data.bodytext -> f:format.html()}</div>
+            </div>
+            <div class="right">
+                <f:if condition="{files.0}">
+                    <div class="map">
+                        <img src="{f:uri.image(image: files.0, width: '600', height: 'c400')}" alt="{files.0.alternative}"/>
+                    </div>
+                </f:if>
+            </div>
+        </div>
+    </div>
+</section>
+
+</f:section>
+
+</html>

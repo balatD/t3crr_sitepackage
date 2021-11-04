@@ -1,0 +1,30 @@
+mod.web_layout.BackendLayouts {
+  t3crr_sitepackage_Subpage {
+    title = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.subpage
+    icon = EXT:t3crr_sitepackage/Resources/Public/Icons/BackendLayouts/subpage.svg
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 2
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.hero
+                colPos = 1
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.content
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

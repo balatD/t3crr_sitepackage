@@ -1,0 +1,14 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:asset.css identifier="css_main" href="EXT:t3crr_sitepackage/Resources/Public/Css/main.min.css"/>
+<f:asset.script identifier="js_app" src="EXT:t3crr_sitepackage/Resources/Public/JavaScript/app.js"/>
+
+<f:render partial="MetaNavigation" arguments="{_all}"/>
+
+<f:render partial="Header" arguments="{_all}" />
+
+<main><f:render section="Main" /></main>
+
+<f:render partial="Footer" arguments="{_all}" />
+
+</html>

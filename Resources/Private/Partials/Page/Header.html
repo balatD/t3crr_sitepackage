@@ -1,0 +1,11 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<header>
+    <nav class="mainmenu">
+        <f:for each="{mainNavigation}" as="page">
+            <a href="{page.link}">{page.title}</a>
+        </f:for>
+    </nav>
+</header>
+
+</html>

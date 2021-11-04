@@ -1,0 +1,19 @@
+{
+  "name": "db/t3crr-sitepackage",
+  "description": "Site package",
+  "license": "GPL-2.0-or-later",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+
+  "autoload": {
+    "psr-4": {
+      "Db\\T3CRRSitepackage\\": "Classes/"
+    }
+  },
+
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "t3crr_sitepackage"
+    }
+  }
+}

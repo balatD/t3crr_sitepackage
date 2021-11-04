@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Db\T3CRRSitepackage\:
+    resource: '../Classes/*'

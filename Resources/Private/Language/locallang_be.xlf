@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-06-24T11:36:30Z">
+		<header />
+		<body>
+			<trans-unit id="backend_layout.startpage">
+				<source>Startpage</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.subpage">
+				<source>Subpage</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.hero">
+				<source>Hero</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.content">
+				<source>Content</source>
+			</trans-unit>
+
+			<trans-unit id="t3crr-wizard">
+				<source>T3CRR Elemente</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

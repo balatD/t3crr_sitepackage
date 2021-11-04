@@ -1,0 +1,5 @@
+tt_content.text_element >
+tt_content.text_element =< lib.contentElement
+tt_content.text_element {
+  templateName = TextElement
+}

@@ -1,0 +1,12 @@
+######################
+#### DEPENDENCIES ####
+######################
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+
+####################
+#### TypoScript ####
+####################
+@import 'EXT:t3crr_sitepackage/Configuration/TypoScript/Helper/*.typoscript'
+@import 'EXT:t3crr_sitepackage/Configuration/TypoScript/ContentElement/*.typoscript'
+@import 'EXT:t3crr_sitepackage/Configuration/TypoScript/Extensions/*.typoscript'
+@import 'EXT:t3crr_sitepackage/Configuration/TypoScript/Page/*.typoscript'
