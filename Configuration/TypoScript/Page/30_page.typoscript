@@ -8,7 +8,7 @@ page {
   bodyTagCObject = TEXT
   bodyTagCObject {
     field = uid
-    wrap = <body class="hyphenate cpi uid-|">
+    wrap = <body class="t3crr">
   }
 }
 
@@ -54,7 +54,7 @@ page.10 {
     20 {
       levels = 1
       special = directory
-      special.value = 42
+      special.value = 7
       as = metaNavigation
     }
 
@@ -62,7 +62,7 @@ page.10 {
     30 {
       levels = 2
       special = directory
-      special.value = 5
+      special.value = 6
       as = footerNavigation
     }
   }

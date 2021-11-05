@@ -20,9 +20,9 @@ use TYPO3Fluid\Fluid\Core\ViewHelper\Traits\CompileWithRenderStatic;
  *
  * {data.header -> cp:iterator.explode(glue: 'constant:LF')}
  *
- * <cp:iterator.explode content="{data.header}" as="as" glue="constant:LF">
+ * <t3crr:iterator.explode content="{data.header}" as="as" glue="constant:LF">
  * <span>{as}</span>
- * </cp:iterator.explode>
+ * </t3crr:iterator.explode>
  */
 class ExplodeViewHelper extends AbstractViewHelper
 {

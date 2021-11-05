@@ -66,13 +66,6 @@ lib.dynamicContent {
         10.value = {#colPos}={register:colPos}
         10.insertData = 1
 
-        20 = TEXT
-        20.value = parent={register:parent}
-        20.insertData = 1
-        20.if.isTrue.data = register:parent
-        20.stdWrap.required = 1
-        20.stdWrap.noTrimWrap = | AND ||
-
         wrap = (|)
       }
       pidInList.data = register:pageUid

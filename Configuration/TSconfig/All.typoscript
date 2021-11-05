@@ -1,6 +1,5 @@
 #
 # TSconfig for t3crr_sitepackage
 #
-@import 'EXT:t3crr_sitepackage/Configuration/TSconfig/RTE.typoscript'
 @import 'EXT:t3crr_sitepackage/Configuration/TSconfig/BackendLayouts/*.typoscript'
 @import 'EXT:t3crr_sitepackage/Configuration/TSconfig/Wizards/*.typoscript'

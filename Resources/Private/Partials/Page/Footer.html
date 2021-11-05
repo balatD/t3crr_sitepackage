@@ -1,6 +1,7 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 
 <footer>
+    <h2>Footer Navigation</h2>
     <f:for each="{footerNavigation}" as="section" iteration="iterator">
         <a href="{section.link}" target="{section.target}">{section.title}</a>
     </f:for>

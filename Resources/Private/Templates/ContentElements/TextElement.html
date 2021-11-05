@@ -1,21 +1,16 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+      xmlns:t3crr="http://typo3.org/ns/Db/T3CRRSitepackage/ViewHelpers"
+      data-namespace-typo3-fluid="true">
 
-<f:layout name="FrameOnly"/>
-<f:section name="Main">
-
-    <section class="teaser">
-        <div class="container">
-            <div class="page-teaser">
-                <f:if condition="{data.header}">
-                    <h4>{data.header}</h4>
-                </f:if>
-                <f:if condition="{data.bodytext}">
-                    {data.bodytext -> f:format.html()}
-                </f:if>
-            </div>
-        </div>
-    </section>
-
-</f:section>
+<section class="text-element">
+    <f:if condition="{data.header}">
+        <h4>{data.header}</h4>
+    </f:if>
+    <f:if condition="{data.bodytext}">
+        <f:for each="{data.bodytext -> t3crr:iterator.explode(glue: 'constant:LF')}" as="line" iteration="iterator">
+            <p>{line}</p>
+        </f:for>
+    </f:if>
+</section>
 
 </html>
