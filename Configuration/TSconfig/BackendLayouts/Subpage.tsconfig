@@ -1,7 +1,7 @@
 mod.web_layout.BackendLayouts {
   t3crr_sitepackage_Subpage {
     title = LLL:EXT:t3crr_sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.subpage
-    icon = EXT:t3crr_sitepackage/Resources/Public/Icons/BackendLayouts/subpage.svg
+    icon = EXT:t3crr_sitepackage/Resources/Public/Icons/Subpage.png
     config {
       backend_layout {
         colCount = 1

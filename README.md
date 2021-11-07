@@ -1,5 +1,7 @@
 # EXT:t3crr_sitepackage - A example TYPO3 Sitepackage Extension
 
+This extension was used in the T3CRR Talk "Sitepackage Einführung" in 2021!
+
 ## Notice
 Beware that this Sitepackage is for learning purposes only and should not be used like this as a TYPO3 Sitepackage.
 Use the Sitepackage as reference for your future projects!
